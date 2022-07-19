@@ -20,7 +20,7 @@ export default class App extends Component {
                 <Field label="密码" type="password" onChangeEvent1={(value) => { this.setState({ password: value }) }} value={this.state.password}></Field>
                 <div style={{ display: 'flex', 'marginLeft': '110px' }}>
                     <Button type="button" value="登录" event1={() => { this.onLogin() }} />
-                    <Button type="button" value="重置" event1={() => {
+                    <Button type="button" value="重置1" event1={() => {
                         this.setState({ username: '', password: '' })
                     }} />
                 </div>
